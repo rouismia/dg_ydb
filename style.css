@@ -8,9 +8,9 @@
 .user {
     display: inline-block;
     width: 32.4%;
-    background: #9df8ec;
+    background: #4e5050ab;
     border-radius: 0% 0% 0% 0% / 0% 0% 0% 0% ;
-    color: black;
+    color: white;
     box-shadow: 20px 20px rgba(0,0,0,.15);
     transition: all .4s ease;
     margin: 20 auto;
@@ -34,6 +34,7 @@
 }
 
 header {
-    background-color: #323fb3;
+    background-color: #323fb3B0;
     padding: 20px;
+    color: white;
 }
