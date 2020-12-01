@@ -36,6 +36,8 @@ window.onload = () => {
 
         items.forEach(element => {
             if (element.isOnline) {
+                console.log(element);
+                
                 let em = element.bungieNetUserInfo.iconPath;
                 let name = element.destinyUserInfo.displayName;
 
