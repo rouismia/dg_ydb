@@ -32,6 +32,8 @@ window.onload = () => {
 
         let tt = document.getElementById('ydb');
 
+        console.log(items);
+
         items.forEach(element => {
             if (element.isOnline) {
                 let em = element.bungieNetUserInfo.iconPath;
