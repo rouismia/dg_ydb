@@ -38,7 +38,7 @@ window.onload = () => {
             if (element.isOnline == true) {
                 console.log(element);
 
-                let em = element.bungieNetUserInfo.iconPath;
+                let em = element.destinyUserInfo.iconPath;
                 let name = element.destinyUserInfo.displayName;
 
                 console.log(em, name);
