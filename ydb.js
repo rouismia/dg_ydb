@@ -39,7 +39,7 @@ window.onload = () => {
                 let em = element.bungieNetUserInfo.iconPath;
                 let name = element.destinyUserInfo.displayName;
 
-                // console.log(em, name);
+                console.log(em, name);
 
                 let tmp_el = create_el(em, name);
 
