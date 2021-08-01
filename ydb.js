@@ -23,7 +23,7 @@ window.onload = () => {
     // tt.appendChild(create_el(em, "Meow3"))
     let API_KEY = "32e97ca0d7294ad2a9ca9851f7521e28";
     $.ajax({
-        url: "https://www.bungie.net/Platform/GroupV2/3459834/Members/",
+        url: "https://www.bungie.net/Platform/GroupV2/4213867/Members/",
         headers: {
             "X-API-Key": API_KEY
         }
